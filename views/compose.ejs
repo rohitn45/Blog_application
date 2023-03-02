@@ -1,0 +1,10 @@
+<%- include("header") -%>
+
+    <form action="/compose" method="post"> 
+        <label for="pT"><span style="width:99%"></span>Enter Title<input type="text" id="pT" name="postTitle" placeholder="Title" autocomplete="off"></label>
+        <label>Enter content</label>
+        <textarea name="postBody" placeholder="Write your post here..." rows="10"></textarea>
+        <button style="width:140px;" type="submit">Publish</button>
+    </form>
+
+<%- include("footer") -%>
